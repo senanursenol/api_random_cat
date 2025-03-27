@@ -1,14 +1,18 @@
 body {
-    background-color: #a8e6a3; 
+    background-color: #a8e6a3;
     font-family: Arial, sans-serif;
     text-align: center;
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: center; /* Yatayda ortala */
+    align-items: center; /* Dikeyde ortala */
+    height: 100vh; /* Sayfa yüksekliği kadar kapla */
 }
 
 .container {
-    max-width: 600px;
-    margin: 50px auto;
+    width: 90%; /* Küçük ekranlarda daha iyi görünüm */
+    max-width: 600px; /* Maksimum genişlik */
     background: white;
     padding: 20px;
     border-radius: 10px;
@@ -16,13 +20,13 @@ body {
 }
 
 h1 {
-    color: #2e7d32; 
+    color: #2e7d32;
     font-size: 28px;
     font-weight: bold;
 }
 
 p {
-    font-style: italic; 
+    font-style: italic;
     font-size: 18px;
     color: #333;
 }
@@ -33,7 +37,7 @@ strong {
 }
 
 button {
-    background-color: #2e7d32; 
+    background-color: #2e7d32;
     color: white;
     border: none;
     padding: 10px 20px;
