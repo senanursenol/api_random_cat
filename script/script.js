@@ -22,7 +22,7 @@ async function fetchCat() {
     try {
         const response = await fetch("https://api.thecatapi.com/v1/breeds", {
             headers: {
-                "x-api-key": "SENİN_API_KEYİN"
+                "x-api-key": "https://catfact.ninja/"
             }
         });
         const data = await response.json();
